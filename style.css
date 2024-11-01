@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 37px calc(24px + (121-24) * ((100vw-375px) / (1280-375)));
+}
+
+.logo {
+    width: 295;
+    margin-bottom: 85px;
+
+}
+
+.info {
+    display: flex;
+    gap: 30px 161px;
+    flex-wrap: wrap;
+    margin-bottom: 78px;
+}
+
+.title {
+    font-size: 21px;
+    font-family: "TT Hoves", sans-serif;
+}
+
+.subtitle {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: "Chava";
+}
+
+.description {
+    font-size: 27px;
+    max-width: 930px;
+    line-height: 140%;
+    margin-bottom: 20px;
+}
+
+.btn_wrapper {
+    display: flex;
+    gap: 20px 30px;
+}
+
+button {
+    width: 328px;
+    cursor: pointer;
+    padding: 20px 0;
+    border-radius: 12px;
+    border: 2px solid #6E3ABA;
+    background-color: #6E3ABA;
+    color: white;
+    font-size: 18px
+}  
+
+
+button.secondary {
+    color: #6500a4;
+    background-color: white;
+
+}
+
+#hello {
+    background-image: url('./img/html_css_js\ 1.png');
+    background-repeat: no-repeat;
+    background-position: top 121px right 58px;
+    background-size: 30vw;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "TT Hoves";
+}
+
+section {
+    padding: 160px 121px 122px;
+}
+.face {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    margin-bottom: 61px;
+
+
+    
+    
+}
+
+
+.face_down {
+display: flex;
+flex-direction: row;
+gap: 80px;
+
+
+
+}
+.items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+h2 {
+    font-size: 58px;
+    font-weight: 500;
+    margin-bottom: 41px;
+    
+
+    font-family: "TT Hoves";
+    gap: 100px;
+}
+
+    
+.description {
+    gap:70px;
+}
+h3 {
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+}
+
+.emoji {
+width: 192px;
+
+
+}
+
+
+
+
+
+
+
+
+.purpleBg {
+    background-color: #6E3ABA;
+
+}
+
+section.purpleBg {
+    text-align: center;
+    padding-top: calc(40px + (80-40) * ((100vw-375px) / (1280-375)));
+    padding-bottom: calc(41px + (88-40) * ((100vw-375px) / (1280-375)));
+
+
+}
+
+
+
+.sale {
+    font-size: calc(34px + (52-34) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 700;
+    line-height: 117%;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 52px;
+
+}
+
+.timer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: calc(20px + (57-20) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: calc(20px + (57-20) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.timerElem .value {
+    font-family: 'Chava';
+    font-size: calc(60px + (174 - 60) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 107%;
+    color: #2f1d4E;
+
+
+}
+
+
+
+.timerElem .desc {
+    font-size: calc(10px + (27-10) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 500;
+    line-height: 118%;
+    color: #2f1d4E;
+    text-transform: uppercase;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+section {
+   
+    padding-top:calc(24px + (121-24) * ((100vw-375px) / (1280-375)));
+    
+
+}
+
+
+.flex-container {
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    
+    
+
+}
+.flex-item {
+    width: 50%;
+   
+    
+    
+}
+h2 {
+    font-size: calc(34px + (58-34) * ((100vw-375px) / (1280-375))) ;
+    font-weight: 500;
+    font-family: "TT Hoves";
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 27px;
+font-weight: 600;
+text-transform: uppercase;
+margin-top: 90px;
+
+
+}
+
+
+.description {
+        font-size: 27px;
+        font-weight: 400;
+}
+
