@@ -4,7 +4,7 @@ let timerInterval = setInterval(calcTimer, 1000);
 
 function calcTimer() {
     let today = new Date();
-    let saleDeadLine = new Date(2024, 10, 2); 
+    let saleDeadLine = new Date(2024, 10, 5); 
     let delta = (saleDeadLine - today) / 1000;
 
     if (delta <= 0) {
